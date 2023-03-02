@@ -1,10 +1,10 @@
-import TikTokApi
+from TikTokApi import TikTokApi
 import csv
 import os
 import time
 
 
-api = TikTokApi.TikTokApi()
+api = TikTokApi()
 hashtag = "Safari"
 
 filename = f"{hashtag}_tiktok_data.csv"
